@@ -33,7 +33,7 @@ Configuration contains the following parameters:
 #### Implementation notes and requirements 
 
 * [DXtrade Push API](https://demo.dx.trade/developers/#/DXtrade-Push-API) will be the primary data source
-* The module should be designed so that it can be easily maintained, enhanced and tested (or it's parts)
+* The module should be designed so that it can be easily maintained, enhanced and tested (or its parts)
 * There can be a lot of real-time data incoming in a short period of time so it's necessary to block the server callback for the least amount of time possible
 * Publicly available libraries should be used reasonably
 * In all cases only BUY/SELL deals are relevant
