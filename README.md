@@ -21,7 +21,7 @@ Similar deals are deals where:
 * currency pair is the same and 
 * the difference in volume-to-balance ratio is no more than 5%. 
 
-If such a deals are detected produce notification with information including accounts and servers where the deals were detected. 
+If such deals are detected produce notification with information including accounts and servers where the deals were detected. 
 
 #### Application configuration 
 
@@ -37,7 +37,7 @@ Configuration contains the following parameters:
 * There can be a lot of real-time data incoming in a short period of time so it's necessary to block the server callback for the least amount of time possible
 * Publicly available libraries should be used reasonably
 * In all cases only BUY/SELL deals are relevant
-* Application should be able to compare data from multiple servers (cross server detection of similar deals is necessary)
+* Application should be able to compare data from multiple servers (cross-server detection of similar deals is necessary)
 * Incoming trade records has to be compared in one-to-many principle (each deal has to be compared to all relevant incoming deals based on the configured parameters)
 * Volume to balance ratio is ratio between the deal volume and current user balance  
   ```|(deal1.VolumeToBalanceRatio - deal2.VolumeToBalanceRatio)| <= configuration.VolumeToBalanceRatio  ```
