@@ -15,7 +15,7 @@ What needs to be answered by your solution:
 The application will monitor trading activity in real-time and will notify any suspicious behavior. In the future, there will be several modules for different monitoring activities and different data sources, so the application architecture should take this into account and provide corresponding level of abstractions.
 
 ### Similar deals monitoring module
-Trading servers can have some restrictions, wicked users can try to bypass these restrictions by using multiple accounts with different names (of some relatives for example) and on multiple servers. We need to detect such a behavior in real-time and check similar deals. 
+Trading servers can have some restrictions, toxic users can try to bypass these restrictions by using multiple accounts with different names (of some relatives for example) and on multiple servers. We need to detect such a behavior in real-time and check similar deals. 
 Similar deals are deals where: 
 * open time differs no more than one second, 
 * currency pair is the same and 
