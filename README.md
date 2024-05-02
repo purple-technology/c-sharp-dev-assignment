@@ -1,5 +1,5 @@
 # c-sharp-dev-assignment
-Provide technical analysis and propose application design for the described _Watchdog_ project. You can provide PoC implementation. The level of details and what you will focus on is up to you. 
+Provide technical analysis and propose application design for the described _Watchdog_ project. You can provide PoC implementation. The level of details and what you will focus on is up to you. If you are not familiar with any topic, feel free to skip it. The provided solution will be discussed with you.
 
 What needs to be answered by your solution: 
 * what yet needs to be clarified,
